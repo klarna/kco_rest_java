@@ -44,8 +44,57 @@ public class DefaultCaptureTest extends ResourceTestCase {
     private DefaultCapture capture;
 
     @Test
-    public void testCreate() {
-        URI orderUrl = Client.TEST_BASE_URL.resolve(DefaultOrder.PATH + "/12345");
+    public void testCreateNa() {
+        URI orderUrl = Client.NA_TEST_BASE_URL.resolve(DefaultOrder.PATH + "/12345");
+        URI location = orderUrl.resolve(DefaultCapture.PATH + "/" + CAPTURE_ID);
+
+        // Constructor
+        when(root.path(DefaultCapture.PATH))
+                .thenReturn(root);
+
+        // BaseResource.post
+        CaptureData data = new CaptureData();
+        when(root.getRequestBuilder())
+                .thenReturn(builder);
+        when(builder.type(MediaType.APPLICATION_JSON_TYPE))
+                .thenReturn(builder);
+        when(builder.post(ClientResponse.class, data))
+                .thenReturn(response);
+        when(response.getStatusInfo())
+                .thenReturn(Status.CREATED);
+
+        // DefaultCheckoutOrder.create
+        when(response.getStatus())
+                .thenReturn(Status.CREATED.getStatusCode());
+        when(response.getHeaders())
+                .thenReturn(headers);
+        when(headers.getFirst(LOCATION))
+                .thenReturn(location.toString());
+        when(root.uri(location))
+                .thenReturn(root);
+
+        // BaseResource.getLocation
+        when(root.getURI())
+                .thenReturn(location);
+
+        capture = new DefaultCapture(root);
+        capture.create(data);
+
+        assertEquals(location, capture.getLocation());
+
+        // Verify that the right URL was used
+        verify(root).path(DefaultCapture.PATH);
+
+        // Verify that the header response was set
+        verify(root).uri(location);
+
+        // Verify data sent
+        verify(builder).post(ClientResponse.class, data);
+    }
+
+    @Test
+    public void testCreateEu() {
+        URI orderUrl = Client.EU_TEST_BASE_URL.resolve(DefaultOrder.PATH + "/12345");
         URI location = orderUrl.resolve(DefaultCapture.PATH + "/" + CAPTURE_ID);
 
         // Constructor

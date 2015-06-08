@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package examples;
+package examples.us;
 
 import com.klarna.rest.api.Capture;
 import com.klarna.rest.api.DefaultClient;
@@ -48,7 +48,7 @@ public class CaptureExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.NA_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
@@ -112,7 +112,7 @@ public class CaptureExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.NA_TEST_BASE_URL;
             String orderId = "12345";
             String captureId = "34567";
 
@@ -137,7 +137,7 @@ public class CaptureExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.NA_TEST_BASE_URL;
             String orderId = "12345";
             String captureId = "34567";
 
@@ -162,7 +162,7 @@ public class CaptureExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.NA_TEST_BASE_URL;
             String orderId = "12345";
             String captureId = "34567";
 
@@ -196,7 +196,7 @@ public class CaptureExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.NA_TEST_BASE_URL;
             String orderId = "12345";
             String captureId = "34567";
 

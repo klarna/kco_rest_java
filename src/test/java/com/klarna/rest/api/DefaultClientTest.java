@@ -180,8 +180,14 @@ public class DefaultClientTest extends TestCase {
     }
 
     @Test
-    public void testBaseUrl() {
-        assertNotNull(Client.BASE_URL);
-        assertNotNull(Client.TEST_BASE_URL);
+    public void testEuBaseUrl() {
+        assertNotNull(Client.EU_BASE_URL);
+        assertNotNull(Client.EU_TEST_BASE_URL);
+    }
+
+    @Test
+    public void testNaBaseUrl() {
+        assertNotNull(Client.NA_BASE_URL);
+        assertNotNull(Client.NA_TEST_BASE_URL);
     }
 }
