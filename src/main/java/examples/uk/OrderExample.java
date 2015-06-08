@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package examples;
+package examples.uk;
 
 import com.klarna.rest.api.DefaultClient;
 import com.klarna.rest.api.Client;
@@ -49,8 +49,9 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
             String orderId = "12345";
+
+            URI baseUrl = Client.EU_TEST_BASE_URL;
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
 
@@ -73,7 +74,7 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.EU_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
@@ -97,7 +98,7 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.EU_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
@@ -122,7 +123,7 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.EU_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
@@ -146,7 +147,7 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.EU_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
@@ -170,7 +171,7 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.EU_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
@@ -219,7 +220,7 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.EU_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
@@ -231,10 +232,12 @@ public class OrderExample {
                 {
                     setBillingAddress(new Address()
                             .setEmail("user@example.com")
+                            .setRegion(null)
                             .setPhone("57-3895734"));
 
                     setShippingAddress(new Address()
                             .setEmail("user@example.com")
+                            .setRegion(null)
                             .setPhone("57-3895734"));
                 }
             };
@@ -256,7 +259,7 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.EU_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);
@@ -289,7 +292,7 @@ public class OrderExample {
         public static void main(final String[] args) {
             String merchantId = "0";
             String sharedSecret = "sharedSecret";
-            URI baseUrl = Client.TEST_BASE_URL;
+            URI baseUrl = Client.EU_TEST_BASE_URL;
             String orderId = "12345";
 
             Client client = DefaultClient.newInstance(merchantId, sharedSecret, baseUrl);

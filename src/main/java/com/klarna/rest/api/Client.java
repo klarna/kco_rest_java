@@ -26,17 +26,31 @@ public interface Client {
     /**
      * API library client version.
      */
-    String VERSION = "1.0.1";
+    String VERSION = "1.1.0";
 
     /**
-     * API base URL.
+     * Europe API base URL.
+     * Currently used for United Kingdom, Germany and Austria
      */
-    URI BASE_URL = URI.create("https://api.klarna.com");
+    URI EU_BASE_URL = URI.create("https://api.klarna.com");
 
     /**
-     * Testing API base URL.
+     * Europe Testing API base URL.
+     * Currently used for United Kingdom, Germany and Austria
      */
-    URI TEST_BASE_URL = URI.create("https://api.playground.klarna.com");
+    URI EU_TEST_BASE_URL = URI.create("https://api.playground.klarna.com");
+
+    /**
+     * North America API base URL.
+     * Currently used for United States
+     */
+    URI NA_BASE_URL = URI.create("https://api-na.klarna.com");
+
+    /**
+     * North America Testing API base URL.
+     * Currently used for United States
+     */
+    URI NA_TEST_BASE_URL = URI.create("https://api-na.playground.klarna.com");
 
     /**
      * Constructs a new checkout order resource.
