@@ -232,11 +232,15 @@ public class OrderExample {
                 {
                     setBillingAddress(new Address()
                             .setEmail("user@example.com")
-                            .setPhone("57-3895734"));
+                            .setRegion("CA")
+                            .setTitle(null)
+                            .setPhone("(541) 754-3010"));
 
                     setShippingAddress(new Address()
                             .setEmail("user@example.com")
-                            .setPhone("57-3895734"));
+                            .setRegion("CA")
+                            .setTitle(null)
+                            .setPhone("(541) 754-3010"));
                 }
             };
 

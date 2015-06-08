@@ -175,6 +175,8 @@ public class CaptureExample {
                 {
                     setBillingAddress(new Address()
                             .setEmail("user@example.com")
+                            .setRegion("CA")
+                            .setTitle(null)
                             .setPhone("57-3895734"));
                 }
             };
