@@ -59,6 +59,14 @@ public class CaptureDataTest extends TestCase {
     }
 
     @Test
+    public void testGetShippingDelay() {
+        assertNull(data.getShippingDelay());
+
+        data.setShippingDelay(3);
+        assertEquals(Integer.valueOf(3), data.getShippingDelay());
+    }
+
+    @Test
     public void testGetOrderLines() {
         assertNull(data.getOrderLines());
 

@@ -76,6 +76,15 @@ public class CaptureData extends Model {
     private List<ShippingInfo> shippingInfo;
 
     /**
+     * Delay before the order will be shipped. Use for improving the customer
+     * experience regarding payments. This field is currently not returned when
+     * reading the order. Minimum: 0. Please note: to be able to submit values
+     * larger than 0, this has to be enabled in your merchant account. Please
+     * contact Klarna for further information.
+     */
+    private Integer shippingDelay;
+
+    /**
      * Gets the capture id.
      *
      * @return Capture id
@@ -223,5 +232,19 @@ public class CaptureData extends Model {
         this.shippingInfo = info;
 
         return this;
+    }
+
+    /**
+     * @return the shippingDelay
+     */
+    public Integer getShippingDelay() {
+        return shippingDelay;
+    }
+
+    /**
+     * @param shippingDelay the shippingDelay to set
+     */
+    public void setShippingDelay(Integer shippingDelay) {
+        this.shippingDelay = shippingDelay;
     }
 }
