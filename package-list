@@ -1,0 +1,8 @@
+com.klarna.rest
+com.klarna.rest.api
+com.klarna.rest.api.checkout
+com.klarna.rest.api.ordermanagement
+com.klarna.rest.model
+com.klarna.rest.model.checkout
+com.klarna.rest.model.emd
+com.klarna.rest.model.order_management
