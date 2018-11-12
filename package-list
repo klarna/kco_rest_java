@@ -17,4 +17,3 @@ com.klarna.rest.api.settlements
 com.klarna.rest.api.settlements.model
 com.klarna.rest.http_transport
 com.klarna.rest.model
-examples
