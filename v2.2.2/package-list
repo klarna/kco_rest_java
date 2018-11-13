@@ -1,0 +1,4 @@
+com.klarna.rest.api
+com.klarna.rest.api.model
+com.klarna.rest.api.model.emd
+com.klarna.rest.api.model.request
