@@ -3,6 +3,9 @@
 [![Build Status][travis-image]](https://travis-ci.org/klarna/kco_rest_java)
 [![Coverage Status][coveralls-image]](https://coveralls.io/r/klarna/kco_rest_java)
 
+> The **v2.x** branch marked as **deprecated**. Please use [v3.0](https://github.com/klarna/kco_rest_java/tree/v3.0) 
+    branch instead
+
 Klarna Checkout is a revolutionary new payment solution that is changing the way
 people shop online. First, consumers verify their purchase with a minimal
 amount of information through intelligent identification, securing your order
