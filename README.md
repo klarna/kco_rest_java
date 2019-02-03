@@ -156,22 +156,7 @@ Payout: {"status" : "ACTIVE","payment_method_type" : "INVOICE"}
 
 ## How to contribute
 
-At Klarna, we strive toward achieving the highest possible quality for our
-products. Therefore, we require you to follow these guidelines if you wish
-to contribute.
-
-To contribute, the following criteria needs to be fulfilled:
-
-* Description regarding what has been changed and why
-* Pull requests should implement a boxed change
-* All code and documentation must follow the style specified by
-  the included configuration (src/checkstyle.xml)
-* New features and bug fixes must have accompanying unit tests:
-  * Positive tests
-  * Negative tests
-  * Boundary tests (if possible)
-  * No less than 90% decision coverage
-* All unit tests should pass
+See our guide on [contributing](CONTRIBUTING.md)
 
 ## Questions and feedback
 
