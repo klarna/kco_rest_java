@@ -17,7 +17,7 @@ to contribute.
 
 Your contribution has to meet the following criteria:
 
-* It accompanied by a description regarding what has been changed and why
+* It is accompanied by a description regarding what has been changed and why
 * Pull requests should implement a boxed change, meaning they should optimally not try to address many things at once
 * All code and documentation must follow the style specified by
   the included configuration (src/checkstyle.xml)
