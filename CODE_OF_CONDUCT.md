@@ -75,6 +75,5 @@ report it by emailing developers@klarna.com.
    each other doesn’t get us anywhere. Instead, focus on helping to
    resolve issues and learning from mistakes.
 
-Original text courtesy of the `Speak Up!
-project <http://web.archive.org/web/20141109123859/http://speakup.io/coc.html>`__.
-This version was adopted from the `Django Code of Conduct <https://www.djangoproject.com/conduct/>`_.
+Original text courtesy of the [Speak Up! project](http://web.archive.org/web/20141109123859/http://speakup.io/coc.html).
+This version was adopted from the [Django Code of Conduct](https://www.djangoproject.com/conduct/).
