@@ -29,14 +29,14 @@ report it by emailing developers@klarna.com.
 - **Be welcoming.** We strive to be a community that welcomes and
    supports people of all backgrounds and identities. This includes, but
    is not limited to members of any race, ethnicity, culture, national
-   origin, colour, immigration status, social and economic class,
+   origin, color, immigration status, social and economic class,
    educational level, sex, sexual orientation, gender identity and
    expression, age, size, family status, political belief, religion, and
    mental and physical ability.
-- **Be considerate.** Your work will be used by other people, and you
-   in turn will depend on the work of others. Any decision you take will
+- **Be considerate.** Your work will be used by other people and you
+   in turn, will depend on the work of others. Any decision you take will
    affect users and colleagues, and you should take those consequences
-   into account when making decisions. Remember that we're a world-wide
+   into account when making decisions. Remember that we're a worldwide
    community, so you might not be communicating in someone else's
    primary language.
 - **Be respectful.** Not all of us will agree all the time, but
