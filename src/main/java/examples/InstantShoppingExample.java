@@ -41,6 +41,7 @@ public class InstantShoppingExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /instantshopping/v1/buttons
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
 
@@ -92,6 +93,7 @@ public class InstantShoppingExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /instantshopping/v1/buttons
         }
     }
 
@@ -103,6 +105,7 @@ public class InstantShoppingExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: PUT /instantshopping/v1/buttons/{button_key}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String buttonKey = "button-key-123";
@@ -154,6 +157,7 @@ public class InstantShoppingExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: PUT /instantshopping/v1/buttons/{button_key}
         }
     }
 
@@ -165,6 +169,7 @@ public class InstantShoppingExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /instantshopping/v1/buttons/{button_key}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String buttonKey = "button-key-123";
@@ -181,6 +186,7 @@ public class InstantShoppingExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /instantshopping/v1/buttons/{button_key}
         }
     }
 
@@ -192,6 +198,7 @@ public class InstantShoppingExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: DELETE /instantshopping/v1/authorizations/{authorization_token}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String authorizationToken = "auth-token-123";
@@ -213,6 +220,7 @@ public class InstantShoppingExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: DELETE /instantshopping/v1/authorizations/{authorization_token}
         }
     }
 
@@ -224,6 +232,7 @@ public class InstantShoppingExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /instantshopping/v1/authorizations/{authorization_token}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String authorizationToken = "auth-token-123";
@@ -240,6 +249,7 @@ public class InstantShoppingExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /instantshopping/v1/authorizations/{authorization_token}
         }
     }
 
@@ -251,6 +261,7 @@ public class InstantShoppingExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /instantshopping/v1/authorizations/{authorization_token}/orders
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String authorizationToken = "auth-token-123";
@@ -329,6 +340,7 @@ public class InstantShoppingExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /instantshopping/v1/authorizations/{authorization_token}/orders
         }
     }
 }

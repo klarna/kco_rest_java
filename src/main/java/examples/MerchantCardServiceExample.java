@@ -21,6 +21,7 @@ public class MerchantCardServiceExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /merchantcard/v3/settlements/{settlement_id}
             final String username = "K123456_abcd12345";
             final String password = "sharedSecret";
             final String settlementId = "12345";
@@ -38,6 +39,7 @@ public class MerchantCardServiceExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /merchantcard/v3/settlements/{settlement_id}
         }
     }
 
@@ -48,6 +50,7 @@ public class MerchantCardServiceExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /merchantcard/v3/settlements/order/{order_id}
             final String username = "K123456_abcd12345";
             final String password = "sharedSecret";
             final String orderId = "12345";
@@ -65,6 +68,7 @@ public class MerchantCardServiceExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /merchantcard/v3/settlements/order/{order_id}
         }
     }
 
@@ -75,6 +79,7 @@ public class MerchantCardServiceExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /merchantcard/v3/settlements
             final String username = "K123456_abcd12345";
             final String password = "sharedSecret";
             final String orderId = "12345";
@@ -96,6 +101,7 @@ public class MerchantCardServiceExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /merchantcard/v3/settlements
         }
     }
 
@@ -106,6 +112,7 @@ public class MerchantCardServiceExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /merchantcard/v3/promises
             final String username = "K123456_abcd12345";
             final String password = "sharedSecret";
             final String orderId = "12345";
@@ -134,6 +141,7 @@ public class MerchantCardServiceExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /merchantcard/v3/promises
         }
     }
 
@@ -144,6 +152,7 @@ public class MerchantCardServiceExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /merchantcard/v3/promises/{promise_id}
             final String username = "K123456_abcd12345";
             final String password = "sharedSecret";
             final String promiseId = "12345";
@@ -160,6 +169,7 @@ public class MerchantCardServiceExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /merchantcard/v3/promises/{promise_id}
         }
     }
 }

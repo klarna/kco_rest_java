@@ -52,6 +52,7 @@ public class SettlementsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /settlements/v1/payouts/{payment_reference}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String paymentReference = "12345";
@@ -68,6 +69,7 @@ public class SettlementsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /settlements/v1/payouts/{payment_reference}
         }
     }
 
@@ -78,6 +80,7 @@ public class SettlementsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET GET /settlements/v1/payouts
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
 
@@ -93,6 +96,7 @@ public class SettlementsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET GET /settlements/v1/payouts
         }
     }
 
@@ -103,6 +107,7 @@ public class SettlementsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /settlements/v1/payouts/summary
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
 
@@ -128,6 +133,7 @@ public class SettlementsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /settlements/v1/payouts/summary
         }
     }
 
@@ -138,6 +144,7 @@ public class SettlementsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /settlements/v1/transactions
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
 
@@ -153,6 +160,7 @@ public class SettlementsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /settlements/v1/transactions
         }
     }
 
@@ -163,6 +171,7 @@ public class SettlementsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /settlements/v1/reports/payouts-summary-with-transactions
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
 
@@ -189,6 +198,7 @@ public class SettlementsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /settlements/v1/reports/payouts-summary-with-transactions
         }
     }
 
@@ -199,6 +209,7 @@ public class SettlementsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /settlements/v1/reports/payout-with-transactions
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String paymentReference = "12345";
@@ -219,6 +230,7 @@ public class SettlementsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /settlements/v1/reports/payout-with-transactions
         }
     }
 
@@ -229,6 +241,7 @@ public class SettlementsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /settlements/v1/reports/payouts-summary
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
 
@@ -255,6 +268,7 @@ public class SettlementsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /settlements/v1/reports/payouts-summary
         }
     }
 
@@ -265,6 +279,7 @@ public class SettlementsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /settlements/v1/reports/payout
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String paymentReference = "12345";
@@ -285,6 +300,7 @@ public class SettlementsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /settlements/v1/reports/payout
         }
     }
 }

@@ -44,6 +44,7 @@ public class PaymentsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /payments/v1/sessions
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
 
@@ -92,6 +93,7 @@ public class PaymentsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /payments/v1/sessions
         }
     }
 
@@ -106,6 +108,7 @@ public class PaymentsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /payments/v1/sessions/{session_id}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String sessionId = "sessionId";
@@ -122,6 +125,7 @@ public class PaymentsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /payments/v1/sessions/{session_id}
         }
     }
 
@@ -136,6 +140,7 @@ public class PaymentsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /payments/v1/sessions/{session_id}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String sessionId = "sessionId";
@@ -174,6 +179,7 @@ public class PaymentsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /payments/v1/sessions/{session_id}
         }
     }
 
@@ -188,6 +194,7 @@ public class PaymentsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /payments/v1/authorizations/{authorizationToken}/order
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String authorizationToken = "authToken";
@@ -251,6 +258,7 @@ public class PaymentsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /payments/v1/authorizations/{authorizationToken}/order
         }
     }
 
@@ -265,6 +273,7 @@ public class PaymentsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /payments/v1/authorizations/{authorizationToken}/customer-token
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String authorizationToken = "authToken";
@@ -305,6 +314,7 @@ public class PaymentsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /payments/v1/authorizations/{authorizationToken}/customer-token
         }
     }
 
@@ -319,6 +329,7 @@ public class PaymentsExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: DELETE /payments/v1/authorizations/{authorizationToken}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String authorizationToken = "authToken";
@@ -335,6 +346,7 @@ public class PaymentsExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: DELETE /payments/v1/authorizations/{authorizationToken}
         }
     }
 }

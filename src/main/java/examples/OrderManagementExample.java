@@ -44,6 +44,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /ordermanagement/v1/orders/{order_id}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -60,6 +61,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /ordermanagement/v1/orders/{order_id}
         }
     }
 
@@ -74,6 +76,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /ordermanagement/v1/orders/{order_id}/release-remaining-authorization
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -90,6 +93,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /ordermanagement/v1/orders/{order_id}/release-remaining-authorization
         }
     }
 
@@ -104,6 +108,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /ordermanagement/v1/orders/{order_id}/extend-authorization-time
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -120,6 +125,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /ordermanagement/v1/orders/{order_id}/extend-authorization-time
         }
     }
 
@@ -134,6 +140,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: PATCH /ordermanagement/v1/orders/{order_id}/customer-details
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -160,6 +167,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: PATCH /ordermanagement/v1/orders/{order_id}/customer-details
         }
     }
 
@@ -174,6 +182,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /ordermanagement/v1/orders/{order_id}/cancel
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -190,6 +199,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /ordermanagement/v1/orders/{order_id}/cancel
         }
     }
 
@@ -204,6 +214,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: PATCH /ordermanagement/v1/orders/{order_id}/merchant-references
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -224,6 +235,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: PATCH /ordermanagement/v1/orders/{order_id}/merchant-references
         }
     }
 
@@ -238,6 +250,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /ordermanagement/v1/orders/{order_id}/acknowledge
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -254,6 +267,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /ordermanagement/v1/orders/{order_id}/acknowledge
         }
     }
 
@@ -268,6 +282,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: PATCH /ordermanagement/v1/orders/{order_id}/authorization
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -302,6 +317,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: PATCH /ordermanagement/v1/orders/{order_id}/authorization
         }
     }
 
@@ -316,6 +332,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /ordermanagement/v1/orders/{order_id}/refunds
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -358,6 +375,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /ordermanagement/v1/orders/{order_id}/refunds
         }
     }
 
@@ -369,6 +387,7 @@ public class OrderManagementExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /ordermanagement/v1/orders/{order_id}/refunds/{refund_id}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String orderId = "12345";
@@ -386,6 +405,7 @@ public class OrderManagementExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /ordermanagement/v1/orders/{order_id}/refunds/{refund_id}
         }
     }
 }

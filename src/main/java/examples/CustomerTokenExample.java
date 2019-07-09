@@ -19,6 +19,7 @@ public class CustomerTokenExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /customer-token/v1/tokens/{customerToken}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String customerToken = "customerToken";
@@ -35,6 +36,7 @@ public class CustomerTokenExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /customer-token/v1/tokens/{customerToken}
         }
     }
 
@@ -45,6 +47,7 @@ public class CustomerTokenExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /customer-token/v1/tokens/{customerToken}/order
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String customerToken = "customerToken";
@@ -104,6 +107,7 @@ public class CustomerTokenExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /customer-token/v1/tokens/{customerToken}/order
         }
     }
 
@@ -114,6 +118,7 @@ public class CustomerTokenExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: PATCH /customer-token/v1/tokens/{customerToken}/status
             String username = "PK01038_a813060918c5";
             String password = "R1QkI2yB95lPq4Es";
             String customerToken = "customerToken";
@@ -132,6 +137,7 @@ public class CustomerTokenExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: PATCH /customer-token/v1/tokens/{customerToken}/status
         }
     }
 }

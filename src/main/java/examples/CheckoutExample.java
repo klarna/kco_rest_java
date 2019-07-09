@@ -47,6 +47,7 @@ public class CheckoutExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /checkout/v3/orders/{order_id}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String checkoutOrderID = "12345";
@@ -63,6 +64,7 @@ public class CheckoutExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /checkout/v3/orders/{order_id}
         }
     }
 
@@ -77,6 +79,7 @@ public class CheckoutExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /checkout/v3/orders
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
 
@@ -132,6 +135,7 @@ public class CheckoutExample {
             } catch (ApiException e) {
                 System.out.println(e.getMessage());
             }
+            // /X-Example: POST /checkout/v3/orders
         }
     }
 
@@ -146,6 +150,7 @@ public class CheckoutExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /checkout/v3/orders/{order_id}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String checkoutOrderID = "12345";
@@ -200,6 +205,7 @@ public class CheckoutExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /checkout/v3/orders/{order_id}
         }
     }
 

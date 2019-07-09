@@ -41,6 +41,7 @@ public class HostedPaymentPageExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /hpp/v1/sessions
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String sessionId = "sessionId";
@@ -71,6 +72,7 @@ public class HostedPaymentPageExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /hpp/v1/sessions
         }
     }
 
@@ -82,6 +84,7 @@ public class HostedPaymentPageExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: POST /hpp/v1/sessions/{session_id}/distribution
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String sessionId = "sessionId";
@@ -106,6 +109,7 @@ public class HostedPaymentPageExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: POST /hpp/v1/sessions/{session_id}/distribution
         }
     }
 
@@ -117,6 +121,7 @@ public class HostedPaymentPageExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: GET /hpp/v1/sessions/{session_id}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String sessionId = "sessionId";
@@ -133,6 +138,7 @@ public class HostedPaymentPageExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: GET /hpp/v1/sessions/{session_id}
         }
     }
 
@@ -144,6 +150,7 @@ public class HostedPaymentPageExample {
          * @param args Command line arguments
          */
         public static void main(final String[] args) {
+            // X-Example: DELETE /hpp/v1/sessions/{session_id}
             String username = "K123456_abcd12345";
             String password = "sharedSecret";
             String sessionId = "sessionId";
@@ -160,6 +167,7 @@ public class HostedPaymentPageExample {
             } catch (ApiException e) {
                 System.out.println("API issue: " + e.getMessage());
             }
+            // /X-Example: DELETE /hpp/v1/sessions/{session_id}
         }
     }
 }
