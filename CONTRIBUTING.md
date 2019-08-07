@@ -1,6 +1,6 @@
 # Contributing to this Klarna project
 
-You are here to help on Klarna REST Java SDK? Awesome, feel welcome and read the following sections in order to know how to ask questions and how to work on something.
+Are you here to help with the Klarna REST Java SDK? Welcome! Please read the following to better understand how to ask questions or work on something.
 
 All members of our community are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Please make sure you are welcoming and friendly in all of our spaces.
 
