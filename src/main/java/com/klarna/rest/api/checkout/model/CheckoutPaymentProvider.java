@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * CheckoutPaymentProvider
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-01-20T10:12:28.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-04-02T15:03:42.622Z")
 public class CheckoutPaymentProvider {
   @JsonProperty("name")
   private String name = null;

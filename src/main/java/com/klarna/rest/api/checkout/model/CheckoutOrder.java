@@ -37,7 +37,7 @@ import org.threeten.bp.OffsetDateTime;
 /**
  * CheckoutOrder
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-01-20T10:12:28.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-04-02T15:03:42.622Z")
 public class CheckoutOrder {
   @JsonProperty("order_id")
   private String orderId = null;

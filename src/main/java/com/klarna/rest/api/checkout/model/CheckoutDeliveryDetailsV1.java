@@ -27,7 +27,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * CheckoutDeliveryDetailsV1
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-01-20T10:12:28.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-04-02T15:03:42.622Z")
 public class CheckoutDeliveryDetailsV1 {
   @JsonProperty("carrier")
   private String carrier = null;

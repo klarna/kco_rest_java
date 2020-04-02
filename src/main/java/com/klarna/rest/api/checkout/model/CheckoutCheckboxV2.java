@@ -24,7 +24,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * CheckoutCheckboxV2
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-01-20T10:12:28.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-04-02T15:03:42.622Z")
 public class CheckoutCheckboxV2 {
   @JsonProperty("id")
   private String id = null;
@@ -65,7 +65,7 @@ public class CheckoutCheckboxV2 {
    * Text that will be displayed to the consumer aside the checkbox. Links and formatting can be added using Markdown. (max 255 characters)
    * @return text
   **/
-  @ApiModelProperty(example = "Please add me to the newsletter list, read more here [link](http://www.google.com)", required = true, value = "Text that will be displayed to the consumer aside the checkbox. Links and formatting can be added using Markdown. (max 255 characters)")
+  @ApiModelProperty(example = "Please add me to the newsletter list, read more here \\[link\\](http://www.google.com)", required = true, value = "Text that will be displayed to the consumer aside the checkbox. Links and formatting can be added using Markdown. (max 255 characters)")
   public String getText() {
     return text;
   }
