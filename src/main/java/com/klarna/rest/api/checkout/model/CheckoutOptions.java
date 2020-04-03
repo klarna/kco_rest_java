@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * CheckoutOptions
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-01-20T10:12:28.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-04-02T15:03:42.622Z")
 public class CheckoutOptions {
   @JsonProperty("acquiring_channel")
   private String acquiringChannel = null;
@@ -339,10 +339,10 @@ public class CheckoutOptions {
   }
 
    /**
-   * Additional merchant defined field. e.g. Extra terms and conditions to show.  Example: \&quot;ADDITIONAL MERCHANT TERMS! [terms link](https://merchant.com/extra_terms)\&quot;
+   * Additional merchant defined field. e.g. Extra terms and conditions to show.  Example: \&quot;ADDITIONAL MERCHANT TERMS! \\[terms link\\](https://merchant.com/extra_terms)\&quot;
    * @return additionalMerchantTerms
   **/
-  @ApiModelProperty(value = "Additional merchant defined field. e.g. Extra terms and conditions to show.  Example: \"ADDITIONAL MERCHANT TERMS! [terms link](https://merchant.com/extra_terms)\"")
+  @ApiModelProperty(value = "Additional merchant defined field. e.g. Extra terms and conditions to show.  Example: \"ADDITIONAL MERCHANT TERMS! \\[terms link\\](https://merchant.com/extra_terms)\"")
   public String getAdditionalMerchantTerms() {
     return additionalMerchantTerms;
   }

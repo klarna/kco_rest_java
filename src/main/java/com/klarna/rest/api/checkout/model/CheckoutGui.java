@@ -26,10 +26,23 @@ import java.util.List;
 /**
  * CheckoutGui
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-01-20T10:12:28.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-04-02T15:03:42.622Z")
 public class CheckoutGui {
   @JsonProperty("options")
   private List<String> options = null;
+
+  public CheckoutGui options(List<String> options) {
+    this.options = options;
+    return this;
+  }
+
+  public CheckoutGui addOptionsItem(String optionsItem) {
+    if (this.options == null) {
+      this.options = new ArrayList<String>();
+    }
+    this.options.add(optionsItem);
+    return this;
+  }
 
    /**
    * An array of options to define the checkout behaviour. Supported options: disable_autofocus, minimal_confirmation.  The gui object is an array of options to modify checkout client ui behaviours.   Examples: [\&quot;disable_autofocus\&quot;, \&quot;minimal_confirmation\&quot;]
@@ -38,6 +51,10 @@ public class CheckoutGui {
   @ApiModelProperty(example = "[\"disable_autofocus\"]", value = "An array of options to define the checkout behaviour. Supported options: disable_autofocus, minimal_confirmation.  The gui object is an array of options to modify checkout client ui behaviours.   Examples: [\"disable_autofocus\", \"minimal_confirmation\"]")
   public List<String> getOptions() {
     return options;
+  }
+
+  public void setOptions(List<String> options) {
+    this.options = options;
   }
 
 

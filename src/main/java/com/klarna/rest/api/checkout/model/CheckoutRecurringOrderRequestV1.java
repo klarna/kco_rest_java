@@ -30,7 +30,7 @@ import java.util.Map;
 /**
  * CheckoutRecurringOrderRequestV1
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-01-20T10:12:28.827Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-04-02T15:03:42.622Z")
 public class CheckoutRecurringOrderRequestV1 {
   @JsonProperty("locale")
   private String locale = null;
